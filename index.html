@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta description="WDD 131 – Dynamic Web Fundamentals by Murungi Innocent, exploring core concepts of dynamic web development including HTML, CSS, JavaScript, responsive design, and modern web fundamentals.">
+    <title>WDD 131 – Dynamic Web Fundamentals – Your Name</title>
+
+     <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/base.css">
+
+<!-- JavaScript -->
+  <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
-    
+  <header>
+  <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+  <nav>
+    <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+    <a href="https://byupw.instructure.com/" target="_blank">I-Learn</a>
+    <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank">Scripture</a>
+    <a href="#">Final Project</a>
+  </nav>
+</header>
+
+
+  <main>
+    <h1>Murungi Innocent</h1>
+
+    <section class="card">
+      <h2>About Me</h2>
+      <img src="images/profile.jpg" alt="Profile photo of Murungi Innocent">
+      <p>
+        I am a web development student learning HTML, CSS, and JavaScript.
+        I enjoy building clean layouts, experimenting with design, and improving my frontend skills.
+      </p>
+
+       <h4>Kampala, Uganda</h4>
+      <div class="location">
+        <img src="images/flag.jpg" alt="Flag of Uganda">
+        <p>
+          Uganda is a landlocked country in East Africa known for its rich culture,
+          diverse wildlife, and beautiful landscapes. It is often referred to as
+          the “Pearl of Africa.”
+        </p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Web Development</h2>
+      <img src="images/web development workspace.png" alt="Web development illustration">
+      <p>
+        This section highlights my journey in Dynamic Web Fundamentals, focusing on responsive layouts,
+        semantic HTML, CSS Grid, Flexbox, and JavaScript interactivity.
+      </p>
+    </section>
+
+    <section class="card resources">
+      <h3>Web Dev Resources</h3>
+      <ul>
+        <li><a href="https://dev.to" target="_blank">Dev.to Community</a></li>
+        <li><a href="https://www.smashingmagazine.com" target="_blank">Smashing Magazine</a></li>
+        <li><a href="https://css-tricks.com" target="_blank">CSS Tricks</a></li>
+        <li><a href="https://www.w3schools.com" target="_blank">W3 Schools</a></li>
+        <li><a href="https://www.udemy.com" target="_blank">Udemy</a></li>
+        <li><a href="https://picsum.photos" target="_blank">Lorem Picsum</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      &copy; <span id="currentyear"></span> Murungi Innocent | Uganda
+    </p>
+    <p id="lastModified"></p>
+  </footer>
 </body>
 </html>
