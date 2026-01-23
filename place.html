@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Place Page">
+  <meta name="author" content="Murungi Innocent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uganda | Place Page</title>
+
+  <link rel="stylesheet" href="styles/place.css">
+  <script src="scripts/place.js" defer></script>
+  <link rel="web icon" type="jpg"
+    href="images/flag.jpg">
+</head>
+<body>
+
+<header>
+  <h1>Uganda</h1>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <picture>
+      <source srcset="images/hero-large.webp" media="(min-width: 48rem)">
+      <img src="images/hero-small.webp" alt="Scenic landscape of Uganda">
+    </picture>
+  </section>
+
+  <!-- DATA -->
+  <section class="card data">
+    <h2>Data</h2>
+    <p><span class="label">Capital:</span> Kampala</p>
+    <p><span class="label">Region:</span> East Africa</p>
+    <p><span class="label">Population:</span> ~45 million</p>
+    <p><span class="label">Currency:</span> Ugandan Shilling (UGX)</p>
+    <p><span class="label">Languages:</span> English, Swahili</p>
+  </section>
+
+  <!-- WEATHER -->
+  <section class="card weather">
+    <h2>Weather</h2>
+
+    <!-- Mobile SVG icon -->
+    <img src="images/weather.svg" alt="Weather icon" class="weather-icon">
+
+    <p><span class="label">Temperature:</span> <span id="temp">24</span>°C</p>
+    <p><span class="label">Wind Speed:</span> <span id="wind">10</span> km/h</p>
+    <p><span class="label">Wind Chill:</span> <span id="chill"></span></p>
+  </section>
+
+</main>
+
+<footer>
+  <p>
+    © <span id="year"></span> | Murungi Innocent | Uganda
+  </p>
+  <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>
