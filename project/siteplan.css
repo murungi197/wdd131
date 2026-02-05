@@ -1,0 +1,60 @@
+ :root {
+      --primary-color: #00ffcc;
+      --secondary-color: #0a0a0a;
+      --accent-color: #1f1f1f;
+      --text-color: #ffffff;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--secondary-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Orbitron', sans-serif;
+      color: var(--primary-color);
+    }
+
+    section {
+      background-color: var(--accent-color);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+
+    .wireframe {
+      border: 2px dashed var(--primary-color);
+      padding: 15px;
+      margin-top: 10px;
+    }
+
+    .box {
+      border: 1px solid #aaa;
+      padding: 10px;
+      margin: 10px 0;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  margin-top: 8px;
+  color: #ccc;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #aaa;
+  padding: 8px;
+  background-color: #fff;
+}

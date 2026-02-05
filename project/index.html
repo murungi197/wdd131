@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TimeSync Clock</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="timesync.css">
+  <script src="timesync.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <img src="images/logo.png" alt="TimeSync Clock Logo" class="logo">
+    <h1>TimeSync Clock</h1>
+  </header>
+
+  <main class="clock-container">
+    <div class="time-display">
+      <span id="clock">00:00:00</span>
+      <span id="ampm"></span>
+    </div>
+
+    <button id="toggleFormat">Switch to 12-Hour</button>
+    <button id="themeToggle">🌙 Dark Mode</button>
+
+
+    <div class="alarm-controls">
+      <input type="time" id="alarmTime">
+      <button id="setAlarm">Set Alarm</button>
+      <button id="stopAlarm">Stop Alarm</button>
+    </div>
+
+    <p id="status">No alarm set</p>
+  </main>
+
+  <audio id="alarmSound" src="alarm.mp3"></audio>
+
+</body>
+</html>
